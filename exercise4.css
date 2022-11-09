@@ -66,22 +66,22 @@ div#main .bottomright {
 
 div#main:hover .topleft {
     transition: 2s ease-in-out;
-    transform-origin:left;
-    transform:rotate(180deg);
+    transform-origin:top left;
+    transform:rotate(90deg);
 }
 div#main:hover .topright {
     transition: 2s ease-in-out;
-    transform-origin:right ;
-    transform: rotate(180deg);
+    transform-origin:top right ;
+    transform: rotate(-90deg);
 }
 div#main:hover .bottomleft {
     transition: 2s ease-in-out;
-    transform-origin:left ;
-    transform: rotate(180deg);
+    transform-origin:top left ;
+    transform: rotate(90deg);
 }
 
 div#main:hover .bottomright {
     transition: 2s ease-in-out;
-    transform-origin:right ;
-    transform: rotate(180deg);
+    transform-origin:top right ;
+    transform: rotate(-90deg);
 }

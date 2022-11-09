@@ -2,11 +2,12 @@ div {
     width: 100px;
     height: 100px;
     background: red;
+    transition-duration: 2s;
 
 }
 
 div:hover {
     width: 300px;
-    transition: 2s;
-    transition-timing-function: ease-in-out;
+    /* transition: 2s; */
+
 }

@@ -2,21 +2,22 @@ div.one {
     width: 100px;
     height: 100px;
     background: red;
+    transition-duration: 2s;
+    
 }
 
 div.two {
     width: 100px;
     height: 100px;
     background: blue;
+    transition-duration: 2s;
+    transition-delay: 2s;
 }
 
 div#main:hover .one  {
     width: 300px;
-    transition: 1s;
 }
 
 div#main:hover .two  {
     width: 300px;
-    transition: 1s;
-    transition-delay: 1s;
 } 
